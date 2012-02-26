@@ -18,10 +18,15 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
+Convert a wordpress blog (or more accurately a WordPress XML Export File) to html files.
+
+I used this to migrate my wordpress blog to evernote (by dragging the resulting files into evernote).
 
 
 # Notes:
 # - currently does not handle images, attachments or comments
 # - was tested on MacOS X (10.5 & 10.6)
 # - not "carefully" developed e.g. poor exception handling, little testing, ...
-# - read http://luisrei.com/2008/03/24/out-of-wordpresscom-and-into-evernotecom/
+
+See Adam Morris' version which creates a single evernote import file:
+https://github.com/adammorris/Luis-Rei-Wordpress-to-Evernote
